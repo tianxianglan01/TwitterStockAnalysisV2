@@ -5,6 +5,14 @@ An updated version of TwitterStockAnalysis I worked on with Chuck K. during Zipc
 ### Goals:
 Stream tweets from twitter concerning Facebook, $FB prices from MarketWatch, and then plot tweet sentiment vs FB prices.
 
+### Cron Job:
+DAG: 
+- stream past 18000 tweets and past prices at 5:01 pm, eastern, M-F into a 
+- fetch tweets and prices, clean, store in mysql database 
+
+### Tech Stack/Packages:
+- NLTK, mysql, twitter API, pyspark, plotly, dash, docker, K8s
+
 ### Tweet Steps:
 - Stream tweets from twitter with twitter API and then store in a mysql database.
 - fetch unclean tweets and drop duplicates
@@ -20,4 +28,4 @@ Stream tweets from twitter concerning Facebook, $FB prices from MarketWatch, and
 
 ### Docker-Compose and K8s
 - let docker-compose create the images and connections between images and then have K8s host the container. 
-- images needed: mysql, and my app 
+- images needed: mysql, my app, airflow

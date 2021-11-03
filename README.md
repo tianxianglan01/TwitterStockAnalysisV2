@@ -20,4 +20,4 @@ Stream tweets from twitter concerning Facebook, $FB prices from MarketWatch, and
 
 ### Docker-Compose and K8s
 - let docker-compose create the images and connections between images and then have K8s host the container. 
-- images needed: mysql, and your app 
+- images needed: mysql, and my app 

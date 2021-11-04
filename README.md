@@ -29,3 +29,7 @@ DAG:
 ### Docker-Compose and K8s
 - let docker-compose create the images and connections between images and then have K8s host the container. 
 - images needed: mysql, my app, airflow
+
+### Future Goals (TwitterGameAnalysisV1)
+- (simple): take someone else's win probability graph of a football game and plot vs twitter sentiment during a live game. Tweets will be fetched with tweepy api *after* the game and then tweets will be plotted with win probability graph generated *after* the game.
+- (complex): 1. create your own win probability statistical model and apply it to a historic NFL game to plot win probability. 2. Model will then be applied to a live game and compared to tweets from twitter API with relevant tweets timed before the play.

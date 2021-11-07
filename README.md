@@ -3,7 +3,7 @@
 An updated version of TwitterStockAnalysis I worked on with Chuck K. during Zipcode Wilmington. Original code can be found here https://github.com/ZipcodeWizards/TwitterStockAnalysis
 
 ### Goals:
-Stream tweets from twitter concerning Facebook, $FB prices from MarketWatch, and then plot tweet sentiment vs FB prices.
+Stream tweets from twitter concerning Facebook, $FB prices from MarketWatch, and then plot tweet sentiment vs FB prices. Use spark instead of pandas.
 
 ### Cron Job:
 DAG: 

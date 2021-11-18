@@ -33,3 +33,6 @@ DAG:
 ### Future Goals (TwitterGameAnalysisV1)
 - (simple): take someone else's win probability graph of a football game and plot vs twitter sentiment during a live game. Tweets will be fetched with tweepy api *after* the game and then tweets will be plotted with win probability graph generated *after* the game.
 - (complex): 1. create your own win probability statistical model and apply it to a historic NFL game to plot win probability. 2. Model will then be applied to a live game and compared to tweets from twitter API with relevant tweets timed before the play.
+
+### Resources
+https://medium.com/@distillerytech/bringing-big-tools-to-big-data-spark-and-spark-streaming-ed93f5b478d7
